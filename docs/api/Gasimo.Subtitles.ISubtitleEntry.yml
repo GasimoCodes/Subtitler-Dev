@@ -22,13 +22,15 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Scripts/DataDefinition/ISubtitleEntry.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: ISubtitleEntry
     path: ../com.gasimo.subtitler/Runtime/Scripts/DataDefinition/ISubtitleEntry.cs
-    startLine: 6
+    startLine: 9
   assemblies:
   - Gasimo.Subtitler
   namespace: Gasimo.Subtitles
+  summary: Interface for describing subtitles usable in Subtitler
+  example: []
   syntax:
     content: public interface ISubtitleEntry
     content.vb: Public Interface ISubtitleEntry
@@ -47,17 +49,20 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Scripts/DataDefinition/ISubtitleEntry.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: getAudio
     path: ../com.gasimo.subtitler/Runtime/Scripts/DataDefinition/ISubtitleEntry.cs
-    startLine: 9
+    startLine: 15
   assemblies:
   - Gasimo.Subtitler
   namespace: Gasimo.Subtitles
+  summary: AudioClip of the subtitle
+  example: []
   syntax:
     content: AudioClip getAudio()
     return:
       type: UnityEngine.AudioClip
+      description: AudioClip with sound for this entry
     content.vb: Function getAudio() As AudioClip
   overload: Gasimo.Subtitles.ISubtitleEntry.getAudio*
 - uid: Gasimo.Subtitles.ISubtitleEntry.getDialogue
@@ -75,17 +80,20 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Scripts/DataDefinition/ISubtitleEntry.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: getDialogue
     path: ../com.gasimo.subtitler/Runtime/Scripts/DataDefinition/ISubtitleEntry.cs
-    startLine: 10
+    startLine: 21
   assemblies:
   - Gasimo.Subtitler
   namespace: Gasimo.Subtitles
+  summary: Dialogue string of the subtitle
+  example: []
   syntax:
     content: string getDialogue()
     return:
       type: System.String
+      description: Dialogue
     content.vb: Function getDialogue() As String
   overload: Gasimo.Subtitles.ISubtitleEntry.getDialogue*
 - uid: Gasimo.Subtitles.ISubtitleEntry.getSpeaker
@@ -103,17 +111,20 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Scripts/DataDefinition/ISubtitleEntry.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: getSpeaker
     path: ../com.gasimo.subtitler/Runtime/Scripts/DataDefinition/ISubtitleEntry.cs
-    startLine: 11
+    startLine: 26
   assemblies:
   - Gasimo.Subtitler
   namespace: Gasimo.Subtitles
+  summary: 'Speaker name for the subtitle, will prefix the dialogue in this format: speaker:dialogue (Optional)'
+  example: []
   syntax:
     content: string getSpeaker()
     return:
       type: System.String
+      description: Speaker Name
     content.vb: Function getSpeaker() As String
   overload: Gasimo.Subtitles.ISubtitleEntry.getSpeaker*
 - uid: Gasimo.Subtitles.ISubtitleEntry.getWaitFor
@@ -131,17 +142,20 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Scripts/DataDefinition/ISubtitleEntry.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: getWaitFor
     path: ../com.gasimo.subtitler/Runtime/Scripts/DataDefinition/ISubtitleEntry.cs
-    startLine: 12
+    startLine: 32
   assemblies:
   - Gasimo.Subtitler
   namespace: Gasimo.Subtitles
+  summary: How long should subtitler pause before playing this line? (If in sequence, relative to last played subtitle)
+  example: []
   syntax:
     content: float getWaitFor()
     return:
       type: System.Single
+      description: ''
     content.vb: Function getWaitFor() As Single
   overload: Gasimo.Subtitles.ISubtitleEntry.getWaitFor*
 - uid: Gasimo.Subtitles.ISubtitleEntry.getDisplayFor
@@ -159,17 +173,20 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Scripts/DataDefinition/ISubtitleEntry.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: getDisplayFor
     path: ../com.gasimo.subtitler/Runtime/Scripts/DataDefinition/ISubtitleEntry.cs
-    startLine: 13
+    startLine: 38
   assemblies:
   - Gasimo.Subtitler
   namespace: Gasimo.Subtitles
+  summary: How long should the subtitle be visible for?
+  example: []
   syntax:
     content: float getDisplayFor()
     return:
       type: System.Single
+      description: ''
     content.vb: Function getDisplayFor() As Single
   overload: Gasimo.Subtitles.ISubtitleEntry.getDisplayFor*
 - uid: Gasimo.Subtitles.ISubtitleEntry.getSubtitleEvent
@@ -187,10 +204,10 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Scripts/DataDefinition/ISubtitleEntry.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: getSubtitleEvent
     path: ../com.gasimo.subtitler/Runtime/Scripts/DataDefinition/ISubtitleEntry.cs
-    startLine: 15
+    startLine: 40
   assemblies:
   - Gasimo.Subtitler
   namespace: Gasimo.Subtitles

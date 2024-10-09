@@ -16,11 +16,11 @@ items:
   type: Class
   source:
     remote:
-      path: com.gasimo.subtitler/Runtime/Timeline/SubtitlerPlayableAsset.cs
+      path: com.gasimo.subtitler/Runtime/Timeline/Clips/SubtitlerPlayableAsset.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: SubtitlerPlayableAsset
-    path: ../com.gasimo.subtitler/Runtime/Timeline/SubtitlerPlayableAsset.cs
+    path: ../com.gasimo.subtitler/Runtime/Timeline/Clips/SubtitlerPlayableAsset.cs
     startLine: 11
   assemblies:
   - Gasimo.Subtitler.Timeline
@@ -48,11 +48,11 @@ items:
   type: Field
   source:
     remote:
-      path: com.gasimo.subtitler/Runtime/Timeline/SubtitlerPlayableAsset.cs
+      path: com.gasimo.subtitler/Runtime/Timeline/Clips/SubtitlerPlayableAsset.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: entry
-    path: ../com.gasimo.subtitler/Runtime/Timeline/SubtitlerPlayableAsset.cs
+    path: ../com.gasimo.subtitler/Runtime/Timeline/Clips/SubtitlerPlayableAsset.cs
     startLine: 14
   assemblies:
   - Gasimo.Subtitler.Timeline
@@ -75,11 +75,11 @@ items:
   type: Method
   source:
     remote:
-      path: com.gasimo.subtitler/Runtime/Timeline/SubtitlerPlayableAsset.cs
+      path: com.gasimo.subtitler/Runtime/Timeline/Clips/SubtitlerPlayableAsset.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: CreatePlayable
-    path: ../com.gasimo.subtitler/Runtime/Timeline/SubtitlerPlayableAsset.cs
+    path: ../com.gasimo.subtitler/Runtime/Timeline/Clips/SubtitlerPlayableAsset.cs
     startLine: 17
   assemblies:
   - Gasimo.Subtitler.Timeline

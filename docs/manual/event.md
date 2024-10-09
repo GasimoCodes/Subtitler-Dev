@@ -2,10 +2,10 @@
 _layout: landing
 ---
 # Events
-Subtitler allows you to subscribe simple C# events to subtitle entries. These events are fired when the corresponding entry is displayed.
+Subtitler allows subscription to simple C# events within subtitle entries. These events trigger when their corresponding entry appears.
 
 ## ScriptableEvent
-A [ScriptableObject](https://docs.unity3d.com/Manual/class-ScriptableObject.html) file. Can be created using the *Gasimo/ScriptableEvent* context menu. 
+A [ScriptableObject](https://docs.unity3d.com/Manual/class-ScriptableObject.html) file. Can be created using the *Gasimo/Subtitler/ScriptableEvent* context menu. 
 You can subscribe to the ScriptableEvent by calling 
 
 ```csharp

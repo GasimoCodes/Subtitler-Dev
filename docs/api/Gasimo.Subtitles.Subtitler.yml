@@ -21,7 +21,7 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Scripts/Subtitler.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: Subtitler
     path: ../com.gasimo.subtitler/Runtime/Scripts/Subtitler.cs
     startLine: 12
@@ -61,7 +61,7 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Scripts/Subtitler.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: Awake
     path: ../com.gasimo.subtitler/Runtime/Scripts/Subtitler.cs
     startLine: 33
@@ -90,7 +90,7 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Scripts/Subtitler.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: PlaySubtitleSequence
     path: ../com.gasimo.subtitler/Runtime/Scripts/Subtitler.cs
     startLine: 132
@@ -128,7 +128,7 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Scripts/Subtitler.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: PlaySubtitleEntry
     path: ../com.gasimo.subtitler/Runtime/Scripts/Subtitler.cs
     startLine: 148
@@ -166,7 +166,7 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Scripts/Subtitler.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: RemoveSubtitle
     path: ../com.gasimo.subtitler/Runtime/Scripts/Subtitler.cs
     startLine: 162
@@ -201,7 +201,7 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Scripts/Subtitler.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: RemoveOldest
     path: ../com.gasimo.subtitler/Runtime/Scripts/Subtitler.cs
     startLine: 175

@@ -17,7 +17,7 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Timeline/SubtitlerTrack.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: SubtitlerTrack
     path: ../com.gasimo.subtitler/Runtime/Timeline/SubtitlerTrack.cs
     startLine: 13
@@ -79,10 +79,10 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Timeline/SubtitlerTrack.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: CreateTrackMixer
     path: ../com.gasimo.subtitler/Runtime/Timeline/SubtitlerTrack.cs
-    startLine: 18
+    startLine: 21
   assemblies:
   - Gasimo.Subtitler.Timeline
   namespace: Gasimo.Subtitles.Timeline

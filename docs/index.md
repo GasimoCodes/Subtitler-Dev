@@ -4,10 +4,9 @@ _disableBreadcrumb: true
 
 # Welcome to **Subtitler** docs!
 
-Subtitler is a simple to use Subtitling/Closed-Captions solution for Unity3D. Its currently under active development but is completely usable. Report all bugs or feature requests [here](https://github.com/GasimoCodes/Subtitler/issues/new/choose).
+Subtitler provides an easy-to-use solution for Subtitling/Closed-Captions in Unity3D. Report bugs or feature requests [here](https://github.com/GasimoCodes/Subtitler-Public/issues/new/choose).
 
-
-## Features
+# Features
 
 - Cull subtitles based on Player Distance / Audio Volume
 - Define dialogue entries with variable timing offsets and display lengths
@@ -22,9 +21,7 @@ Subtitler is a simple to use Subtitling/Closed-Captions solution for Unity3D. It
 - Unity Localization support
 - SRT Files Import Support
   
+## Possible Future Features
 
-## Planned Features
-
-- Optional Localization Package Support
 - Optional Addressables for audioClips support
-- Possible FMod Integration
+- FMod Support

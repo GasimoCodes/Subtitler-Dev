@@ -26,7 +26,5 @@ items:
 
 - name: Unity Localization
   href: localization_intro.md
-  items:
-  - name: Usage
-    href: localization_use.md
+
 

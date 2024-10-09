@@ -79,14 +79,12 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="subtitle-containers">Subtitle Containers</h1>
 
-<p>These are world objects, which contain data about what subtitles to play. They do not contain playing logic. Example implementation of this is available through the SubtitleContainer component.</p>
-<h3 id="subtitlecontainer-component">SubtitleContainer Component</h3>
+<p>Subtitle Containers are world objects that store data about which subtitles should be played. They do not contain playback logic. An example implementation can be found in the SubtitleContainer component.</p>
+<h2 id="subtitlecontainer-component">SubtitleContainer Component</h2>
 <p><img src="../images/Screens/SubtitleContainer.PNG" alt="SubtitleContainer"></p>
-<p>This object either calls Subtitler to play its SubtitleSequence on Start() or, if you choose, manually through
-<code>SubtitleContainer.Play();</code>.</p>
+<p>This component either triggers the Subtitler to play its SubtitleSequence automatically on <code>Start()</code>, or you can manually invoke it using <code>SubtitleContainer.Play();</code>.</p>
 <h4 id="setting-up-range-limiting-and-occlusion-subtitlecontainer">Setting up Range-Limiting and Occlusion SubtitleContainer</h4>
-<p>Subtitler allows you to cull subtitles automatically if they become hard to hear. Culling does not mean subtitles will not be 'played', they will just not be displayed on the UI.
-This is done by checking the AudioSource associated with the SubtitleContainer. A list of properties evaulated is as follows:</p>
+<p>Subtitler can automatically hide subtitles if they're difficult to hear. This does not mean the subtitles are not 'played'; they are just not displayed. This process evaluates properties of the AudioSource linked to the SubtitleContainer:</p>
 <table>
 <thead>
 <tr>
@@ -101,15 +99,15 @@ This is done by checking the AudioSource associated with the SubtitleContainer. 
 </tr>
 <tr>
 <td>Max Distance</td>
-<td>If player distance exceeds max distance (and 3D Mix is set to 1), the subtitle entry will not be visible.</td>
+<td>If the player distance surpasses this value (and 3D Mix is set to 1), subtitles will not be visible.</td>
 </tr>
 <tr>
 <td>Volume</td>
-<td>If the volume is currently low, the entry will not be displayed.</td>
+<td>If the current volume is low, subtitles will not display.</td>
 </tr>
 <tr>
 <td>Enabled</td>
-<td>If the AudioSource is not enabled, the entry will not be shown.</td>
+<td>Subtitles will not show if the AudioSource is disabled.</td>
 </tr>
 </tbody>
 </table>
@@ -122,7 +120,7 @@ This is done by checking the AudioSource associated with the SubtitleContainer. 
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/GasimoCodes/Subtitler/blob/main/docs/manual/containers.md/#L1" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/GasimoCodes/Subtitler-Dev/blob/main/docs/manual/containers.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>

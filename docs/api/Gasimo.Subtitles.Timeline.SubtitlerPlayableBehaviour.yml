@@ -19,7 +19,7 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Timeline/SubtitlerPlayableBehaviour.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: SubtitlerPlayableBehaviour
     path: ../com.gasimo.subtitler/Runtime/Timeline/SubtitlerPlayableBehaviour.cs
     startLine: 12
@@ -49,7 +49,7 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Timeline/SubtitlerPlayableBehaviour.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: entry
     path: ../com.gasimo.subtitler/Runtime/Timeline/SubtitlerPlayableBehaviour.cs
     startLine: 15
@@ -57,10 +57,10 @@ items:
   - Gasimo.Subtitler.Timeline
   namespace: Gasimo.Subtitles.Timeline
   syntax:
-    content: public SubtitleDataEntry entry
+    content: public ISubtitleEntry entry
     return:
-      type: Gasimo.Subtitles.SubtitleDataEntry
-    content.vb: Public entry As SubtitleDataEntry
+      type: Gasimo.Subtitles.ISubtitleEntry
+    content.vb: Public entry As ISubtitleEntry
 - uid: Gasimo.Subtitles.Timeline.SubtitlerPlayableBehaviour.OnBehaviourPlay(UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData)
   commentId: M:Gasimo.Subtitles.Timeline.SubtitlerPlayableBehaviour.OnBehaviourPlay(UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData)
   id: OnBehaviourPlay(UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData)
@@ -76,7 +76,7 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Timeline/SubtitlerPlayableBehaviour.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: OnBehaviourPlay
     path: ../com.gasimo.subtitler/Runtime/Timeline/SubtitlerPlayableBehaviour.cs
     startLine: 18
@@ -112,7 +112,7 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Timeline/SubtitlerPlayableBehaviour.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: OnBehaviourPause
     path: ../com.gasimo.subtitler/Runtime/Timeline/SubtitlerPlayableBehaviour.cs
     startLine: 26
@@ -211,13 +211,13 @@ references:
   - uid: UnityEngine.Playables
     name: Playables
     isExternal: true
-- uid: Gasimo.Subtitles.SubtitleDataEntry
-  commentId: T:Gasimo.Subtitles.SubtitleDataEntry
+- uid: Gasimo.Subtitles.ISubtitleEntry
+  commentId: T:Gasimo.Subtitles.ISubtitleEntry
   parent: Gasimo.Subtitles
-  href: Gasimo.Subtitles.SubtitleDataEntry.html
-  name: SubtitleDataEntry
-  nameWithType: SubtitleDataEntry
-  fullName: Gasimo.Subtitles.SubtitleDataEntry
+  href: Gasimo.Subtitles.ISubtitleEntry.html
+  name: ISubtitleEntry
+  nameWithType: ISubtitleEntry
+  fullName: Gasimo.Subtitles.ISubtitleEntry
 - uid: Gasimo.Subtitles
   commentId: N:Gasimo.Subtitles
   href: Gasimo.html

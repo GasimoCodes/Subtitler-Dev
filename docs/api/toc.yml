@@ -5,6 +5,8 @@ items:
   items:
   - uid: Gasimo.Subtitles.ISubtitleEntry
     name: ISubtitleEntry
+  - uid: Gasimo.Subtitles.ISubtitleSequence
+    name: ISubtitleSequence
   - uid: Gasimo.Subtitles.MonoSingleton`1
     name: MonoSingleton<T>
   - uid: Gasimo.Subtitles.ScriptableEvent
@@ -24,6 +26,13 @@ items:
     name: SRTImporter
   - uid: Gasimo.Subtitles.Editor.SRTImporterEditor
     name: SRTImporterEditor
+- uid: Gasimo.Subtitles.Localization
+  name: Gasimo.Subtitles.Localization
+  items:
+  - uid: Gasimo.Subtitles.Localization.LocalizedSubtitleEntry
+    name: LocalizedSubtitleEntry
+  - uid: Gasimo.Subtitles.Localization.LocalizedSubtitleSequence
+    name: LocalizedSubtitleSequence
 - uid: Gasimo.Subtitles.Timeline
   name: Gasimo.Subtitles.Timeline
   items:

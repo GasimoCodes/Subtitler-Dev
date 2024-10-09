@@ -16,7 +16,7 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Timeline/SubtitlerTrackMixer.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: SubtitlerTrackMixer
     path: ../com.gasimo.subtitler/Runtime/Timeline/SubtitlerTrackMixer.cs
     startLine: 12

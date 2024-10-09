@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Delegate ScriptableEvent.ScriptableEventHandler | Subtitler </title>
+      <title>Interface ISubtitleSequence | Subtitler </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Delegate ScriptableEvent.ScriptableEventHandler | Subtitler ">
+      <meta name="title" content="Interface ISubtitleSequence | Subtitler ">
     
-    
+    <meta name="description" content="Interface for SubtitleSequences. Implement this to define your own sequence.">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -76,19 +76,52 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Gasimo.Subtitles.ScriptableEvent.ScriptableEventHandler">
+            <article class="content wrap" id="_content" data-uid="Gasimo.Subtitles.ISubtitleSequence">
 
 
 
-  <h1 id="Gasimo_Subtitles_ScriptableEvent_ScriptableEventHandler" data-uid="Gasimo.Subtitles.ScriptableEvent.ScriptableEventHandler" class="text-break">Delegate ScriptableEvent.ScriptableEventHandler</h1>
-  <div class="markdown level0 summary"></div>
+  <h1 id="Gasimo_Subtitles_ISubtitleSequence" data-uid="Gasimo.Subtitles.ISubtitleSequence" class="text-break">Interface ISubtitleSequence</h1>
+  <div class="markdown level0 summary"><p>Interface for SubtitleSequences. Implement this to define your own sequence.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Gasimo.html">Gasimo</a>.<a class="xref" href="Gasimo.Subtitles.html">Subtitles</a></h6>
   <h6><strong>Assembly</strong>: Gasimo.Subtitler.dll</h6>
-  <h5 id="Gasimo_Subtitles_ScriptableEvent_ScriptableEventHandler_syntax">Syntax</h5>
+  <h5 id="Gasimo_Subtitles_ISubtitleSequence_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate void ScriptableEvent.ScriptableEventHandler()</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ISubtitleSequence</code></pre>
   </div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/GasimoCodes/Subtitler-Dev/new/main/apiSpec/new?filename=Gasimo_Subtitles_ISubtitleSequence_GetSubtitleEntries.md&amp;value=---%0Auid%3A%20Gasimo.Subtitles.ISubtitleSequence.GetSubtitleEntries%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/GasimoCodes/Subtitler-Dev/blob/main/com.gasimo.subtitler/Runtime/Scripts/DataDefinition/ISubtitleSequence.cs/#L10">View Source</a>
+  </span>
+  <a id="Gasimo_Subtitles_ISubtitleSequence_GetSubtitleEntries_" data-uid="Gasimo.Subtitles.ISubtitleSequence.GetSubtitleEntries*"></a>
+  <h4 id="Gasimo_Subtitles_ISubtitleSequence_GetSubtitleEntries" data-uid="Gasimo.Subtitles.ISubtitleSequence.GetSubtitleEntries">GetSubtitleEntries()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ISubtitleEntry[] GetSubtitleEntries()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Gasimo.Subtitles.ISubtitleEntry.html">ISubtitleEntry</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 </article>
           </div>
@@ -98,10 +131,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/GasimoCodes/Subtitler/new/main/apiSpec/new?filename=Gasimo_Subtitles_ScriptableEvent_ScriptableEventHandler.md&amp;value=---%0Auid%3A%20Gasimo.Subtitles.ScriptableEvent.ScriptableEventHandler%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/GasimoCodes/Subtitler-Dev/new/main/apiSpec/new?filename=Gasimo_Subtitles_ISubtitleSequence.md&amp;value=---%0Auid%3A%20Gasimo.Subtitles.ISubtitleSequence%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/GasimoCodes/Subtitler/blob/main/com.gasimo.subtitler/Runtime/Scripts/DataDefinition/ScriptableEvent.cs/#L17" class="contribution-link">View Source</a>
+                    <a href="https://github.com/GasimoCodes/Subtitler-Dev/blob/main/com.gasimo.subtitler/Runtime/Scripts/DataDefinition/ISubtitleSequence.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

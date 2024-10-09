@@ -15,11 +15,11 @@ items:
   type: Class
   source:
     remote:
-      path: com.gasimo.subtitler/Editor/SRTImporter.cs
+      path: com.gasimo.subtitler/Editor/Importer/SRTImporter.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: SRTImporterEditor
-    path: ../com.gasimo.subtitler/Editor/SRTImporter.cs
+    path: ../com.gasimo.subtitler/Editor/Importer/SRTImporter.cs
     startLine: 100
   assemblies:
   - Gasimo.Subtitler.Editor
@@ -59,11 +59,11 @@ items:
   type: Method
   source:
     remote:
-      path: com.gasimo.subtitler/Editor/SRTImporter.cs
+      path: com.gasimo.subtitler/Editor/Importer/SRTImporter.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: OnInspectorGUI
-    path: ../com.gasimo.subtitler/Editor/SRTImporter.cs
+    path: ../com.gasimo.subtitler/Editor/Importer/SRTImporter.cs
     startLine: 103
   assemblies:
   - Gasimo.Subtitler.Editor

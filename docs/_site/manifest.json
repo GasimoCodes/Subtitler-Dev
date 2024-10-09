@@ -1,5 +1,5 @@
 {
-  "source_base_path": "D:/Projects/SubtitlerSample/Subtitler/docs",
+  "source_base_path": "E:/Projects/Subtitler/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -52,20 +52,50 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Gasimo.Subtitles.MonoSingleton-1.yml",
+      "source_relative_path": "api/Gasimo.Subtitles.ISubtitleSequence.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Gasimo.Subtitles.MonoSingleton-1.html"
+          "relative_path": "api/Gasimo.Subtitles.ISubtitleSequence.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Gasimo.Subtitles.ScriptableEvent.ScriptableEventHandler.yml",
+      "source_relative_path": "api/Gasimo.Subtitles.Localization.LocalizedSubtitleEntry.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Gasimo.Subtitles.ScriptableEvent.ScriptableEventHandler.html"
+          "relative_path": "api/Gasimo.Subtitles.Localization.LocalizedSubtitleEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gasimo.Subtitles.Localization.LocalizedSubtitleSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gasimo.Subtitles.Localization.LocalizedSubtitleSequence.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gasimo.Subtitles.Localization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gasimo.Subtitles.Localization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gasimo.Subtitles.MonoSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gasimo.Subtitles.MonoSingleton-1.html"
         }
       },
       "version": ""
@@ -142,30 +172,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Gasimo.Subtitles.Timeline.SubtitlerPlayableClipEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Gasimo.Subtitles.Timeline.SubtitlerPlayableClipEditor.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Gasimo.Subtitles.Timeline.SubtitlerTrack.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gasimo.Subtitles.Timeline.SubtitlerTrack.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Gasimo.Subtitles.Timeline.SubtitlerTrackEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Gasimo.Subtitles.Timeline.SubtitlerTrackEditor.html"
         }
       },
       "version": ""
@@ -359,6 +369,16 @@
       "output": {
         ".html": {
           "relative_path": "manual/gettingstarted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/localization_intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/localization_intro.html"
         }
       },
       "version": ""

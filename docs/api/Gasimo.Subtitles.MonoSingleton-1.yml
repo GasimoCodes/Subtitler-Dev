@@ -18,7 +18,7 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Scripts/Misc/MonoSingleton.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: MonoSingleton
     path: ../com.gasimo.subtitler/Runtime/Scripts/Misc/MonoSingleton.cs
     startLine: 10
@@ -59,7 +59,7 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Scripts/Misc/MonoSingleton.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: Instance
     path: ../com.gasimo.subtitler/Runtime/Scripts/Misc/MonoSingleton.cs
     startLine: 28
@@ -93,7 +93,7 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Scripts/Misc/MonoSingleton.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: Awake
     path: ../com.gasimo.subtitler/Runtime/Scripts/Misc/MonoSingleton.cs
     startLine: 52

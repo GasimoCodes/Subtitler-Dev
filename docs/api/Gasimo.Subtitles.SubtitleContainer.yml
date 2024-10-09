@@ -6,6 +6,7 @@ items:
   parent: Gasimo.Subtitles
   children:
   - Gasimo.Subtitles.SubtitleContainer.Play
+  - Gasimo.Subtitles.SubtitleContainer.Stop
   - Gasimo.Subtitles.SubtitleContainer.autoPlay
   - Gasimo.Subtitles.SubtitleContainer.subtitleData
   langs:
@@ -19,7 +20,7 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Scripts/SubtitleContainer.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: SubtitleContainer
     path: ../com.gasimo.subtitler/Runtime/Scripts/SubtitleContainer.cs
     startLine: 9
@@ -58,7 +59,7 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Scripts/SubtitleContainer.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: autoPlay
     path: ../com.gasimo.subtitler/Runtime/Scripts/SubtitleContainer.cs
     startLine: 15
@@ -87,7 +88,7 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Scripts/SubtitleContainer.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: subtitleData
     path: ../com.gasimo.subtitler/Runtime/Scripts/SubtitleContainer.cs
     startLine: 20
@@ -116,10 +117,10 @@ items:
     remote:
       path: com.gasimo.subtitler/Runtime/Scripts/SubtitleContainer.cs
       branch: main
-      repo: https://github.com/GasimoCodes/Subtitler.git
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
     id: Play
     path: ../com.gasimo.subtitler/Runtime/Scripts/SubtitleContainer.cs
-    startLine: 34
+    startLine: 36
   assemblies:
   - Gasimo.Subtitler
   namespace: Gasimo.Subtitles
@@ -129,6 +130,34 @@ items:
     content: public void Play()
     content.vb: Public Sub Play()
   overload: Gasimo.Subtitles.SubtitleContainer.Play*
+- uid: Gasimo.Subtitles.SubtitleContainer.Stop
+  commentId: M:Gasimo.Subtitles.SubtitleContainer.Stop
+  id: Stop
+  parent: Gasimo.Subtitles.SubtitleContainer
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: SubtitleContainer.Stop()
+  fullName: Gasimo.Subtitles.SubtitleContainer.Stop()
+  type: Method
+  source:
+    remote:
+      path: com.gasimo.subtitler/Runtime/Scripts/SubtitleContainer.cs
+      branch: main
+      repo: https://github.com/GasimoCodes/Subtitler-Dev.git
+    id: Stop
+    path: ../com.gasimo.subtitler/Runtime/Scripts/SubtitleContainer.cs
+    startLine: 44
+  assemblies:
+  - Gasimo.Subtitler
+  namespace: Gasimo.Subtitles
+  summary: Stops the sequence assigned to this Container
+  example: []
+  syntax:
+    content: public void Stop()
+    content.vb: Public Sub [Stop]()
+  overload: Gasimo.Subtitles.SubtitleContainer.Stop*
 references:
 - uid: Gasimo.Subtitles
   commentId: N:Gasimo.Subtitles
@@ -228,3 +257,9 @@ references:
   name: Play
   nameWithType: SubtitleContainer.Play
   fullName: Gasimo.Subtitles.SubtitleContainer.Play
+- uid: Gasimo.Subtitles.SubtitleContainer.Stop*
+  commentId: Overload:Gasimo.Subtitles.SubtitleContainer.Stop
+  href: Gasimo.Subtitles.SubtitleContainer.html#Gasimo_Subtitles_SubtitleContainer_Stop
+  name: Stop
+  nameWithType: SubtitleContainer.Stop
+  fullName: Gasimo.Subtitles.SubtitleContainer.Stop
